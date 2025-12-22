@@ -17,21 +17,6 @@
 
 
 
-   // testimonial carousel
-   $(".testimonial-carousel").owlCarousel({
-    autoplay: true,
-    items: 1,
-    smartSpeed: 1500,
-    dots: true,
-    dotsData: true,
-    loop: true,
-    margin: 25,
-    nav : true,
-    navText : [
-        '<i class="bi bi-arrow-left"></i>',
-        '<i class="bi bi-arrow-right"></i>'
-    ]
-    });
 
 
     // Facts counter
