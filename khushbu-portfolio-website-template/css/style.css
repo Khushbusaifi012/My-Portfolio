@@ -1,19 +1,4 @@
 
-/*** Spinner Start ***/
-#spinner {
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity .5s ease-out, visibility 0s linear .5s;
-    z-index: 99999;
-}
-
-#spinner.show {
-    transition: opacity .5s ease-out, visibility 0s linear 0s;
-    visibility: visible;
-    opacity: 1;
-}
-/*** Spinner End ***/
-
 .back-to-top {
     position: fixed;
     right: 30px;
@@ -103,7 +88,6 @@
     padding-bottom: 60px;
 }
 
-
 .sub-title {
     font-family: "Edu TAS Beginner", cursive;
     font-weight: 700;
@@ -139,10 +123,7 @@
     .container-fluid .education-header,
     .container-fluid .experience-header,
     .container-fluid .skills-header,
-    .container-fluid .service-header,
     .container-fluid .portfolio-header,
-    .container-fluid .blog-header,
-    .container-fluid .testimonial-header,
     .container-fluid .contact-header {
         padding: 25px;
     }
@@ -393,24 +374,6 @@
 }
 /*** Skills End ***/
 
-
-/*** Service start ***/
-.service-content .service-item {
-    box-shadow: 0 0 30px rgba(0, 0, 0, .03);
-    transition: 0.5s;
-}
-
-.service-content .service-item:hover i {
-    color: var(--bs-primary);
-
-}
-
-.service-content .service-item:hover {
-    box-shadow: 0 0 30px rgba(0, 0, 0, .08);
-}
-/*** service End ***/
-
-
 /*** Portfolio Start ***/
 .portfolio-content .portfolio-item .portfolio-img {
     position: relative;
@@ -448,94 +411,6 @@
     transform: rotate(-6deg);
 }
 /*** Portfolio End ***/
-
-
-/*** Blog Start ***/
-.blog-content .blog-btn a {
-    color: var(--bs-primary);
-}
-.blog-content .blog-btn a:hover {
-    color: var(--bs-dark);
-}
-/*** Blog End ***/
-
-
-/*** Testimonial Start ***/
-.testimonial-carousel {
-    position: relative;
-    transition: 0.5s;
-}
-
-.testimonial-carousel .testimonial-item {
-    padding: 60px;
-}
-
-.testimonial-carousel .owl-nav .owl-prev {
-    position: absolute;
-    top: 50%;
-    left: 0;
-    transform: translateY(-50%);
-    width: 60px;
-    height: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: var(--bs-white);
-    color: var(--bs-primary);
-    transition: 0.5s;
-}
-
-.testimonial-carousel .owl-nav .owl-next {
-    position: absolute;
-    top: 50%;
-    right: 0;
-    transform: translateY(-50%);
-    width: 60px;
-    height: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: var(--bs-white);
-    color: var(--bs-primary);
-    transition: 0.5s;
-}
-
-.testimonial-carousel .owl-nav .owl-prev:hover,
-.testimonial-carousel .owl-nav .owl-next:hover {
-    background: var(--bs-primary);
-    color: var(--bs-white);
-}
-
-.testimonial-carousel .owl-dots {
-    width: 100%;
-    height: 130px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0 60px 60px 60px;
-    transition: 0.5s;
-}
-
-@media (max-width: 576px) {
-    .testimonial-carousel .owl-dots {
-        justify-content: start;
-    }
-}
-
-.testimonial-carousel .owl-dots .owl-dot img {
-    width: 40px;
-    height: 40px;
-    margin-right: 15px;
-    border: 3px solid var(--bs-white);
-    transition: 0.5s;
-}
-
-.testimonial-carousel .owl-dots .owl-dot.active img {
-    width: 70px;
-    height: 70px;
-    border: 3px solid var(--bs-primary);
-}
-/*** Testimonial End ***/
 
 /*** footer Start ***/
 @media (max-width: 991px) {
