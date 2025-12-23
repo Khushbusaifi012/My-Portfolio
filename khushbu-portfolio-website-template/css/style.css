@@ -256,7 +256,8 @@
 
 /***about picture****/
 .about-square {
-    width: 100%;              
+    width: 500%;  
+    height: 500px;            
     aspect-ratio: 1 / 1;
     object-fit: cover;
     border-radius: 10px;
